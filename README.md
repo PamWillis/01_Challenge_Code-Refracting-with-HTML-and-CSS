@@ -33,8 +33,6 @@ The following image shows the web application's appearance and functionality:
 
 ## Review
 
-You are required to submit the following for review:
-
 * The URL of the deployed application: https://pamwillis.github.io/01_Challenge_Code-Refracting-with-HTML-and-CSS/
 
 * The URL of the GitHub repository: https://github.com/PamWillis/01_Challenge_Code-Refracting-with-HTML-and-CSS.git
