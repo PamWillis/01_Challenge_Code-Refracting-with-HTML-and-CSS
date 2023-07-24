@@ -35,12 +35,13 @@ body {
     right: 10px;
     color: #ffffff;
     text-decoration: none;
-  }
+}
   
 .navigator li {
     display: inline-block;
     margin-right: 50px; /* add spacing between items */
-  }
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 
 .hero {
     height: 100%;
