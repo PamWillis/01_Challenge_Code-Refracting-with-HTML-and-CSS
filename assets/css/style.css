@@ -1,12 +1,7 @@
- 
-  * {
+* {
     box-sizing: border-box;
     padding: 0;
-    margin: 0; 
-}
-
-title {
-    display: none;
+    margin: 0;
 }
 
 body {
@@ -21,61 +16,47 @@ body {
 }
 
 .header h1 {
-    color: #d9dcd6;
+    display: inline-block;
     font-size: 48px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.header div {
+.header h1 .seo {
+    color: #d9dcd6;
+}
+
+.header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
 }
-    
-.navigator {
-    list-style: none;
-    position: absolute;
-    top: 50px;
-    right: 10px;
+
+.header nav ul {
+    list-style-type: none;
+}
+
+.header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a {
     color: #ffffff;
     text-decoration: none;
 }
-  
-.navigator li {
-    display: inline-block;
-    margin-right: 50px; /* add spacing between items */
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+p {
+    font-size: 16px;
 }
 
 .hero {
-    height: 100%;
-    margin-bottom: 25px;
+    height: 800px;
     width: 100%;
-}
-
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
-
-/* define describes blue boxes on left and their content*/
-.define { 
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.define img {
-    max-height: 200px;
-}
-
-.define h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
 .float-left {
@@ -88,11 +69,12 @@ body {
     margin-left: 25px;
 }
 
-p {
-    font-size: 16px;
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
 }
 
-/* benefits describes blue box on right and it's content*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -104,22 +86,107 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-item {
+.benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-item h3 {
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-item img {
+.benefit-brand h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+.benefit-brand img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.search-engine-optimization img {
+    max-height: 200px;
+}
+
+.online-reputation-management img {
+    max-height: 200px;
+}
+
+.social-media-marketing img {
+    max-height: 200px;
+}
+
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
 
 .footer {
     padding: 30px;
