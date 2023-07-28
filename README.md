@@ -16,7 +16,7 @@ GitHub repository can be downloaded from:
 ## Usage
 
 
-Deployed website: 
+Deployed website: https://pamwillis.github.io/01_Challenge_Code-Refracting-with-HTML-and-CSS/
 
 ![The Horiseon webpage includes a navigation bar, a header image, and cards with text and images at the bottom of the page. This represents a mockup of the final page](Assets_Readme/images_Readme/screenshot.png)
 
