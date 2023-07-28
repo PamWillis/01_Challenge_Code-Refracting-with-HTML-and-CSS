@@ -7,20 +7,18 @@
 - Labeling sections allows them to understand what area of the site they are on.
 - Minimal changes should be made to the file in order for UX developer to go back and make changes, and to be able to still understand what CSS styles have been added.
 
+Snippet showing before condensing CSS
+![Snippet before](Assets_Readme/images_Readme/beforeCondensing_CSS.png)
+Snippet showing after condensing CSS AND change to HTML
+![Snippet after](Assets_Readme/images_Readme/afterCondensing_CSS.png)
 
-## Installation
-
-GitHub repository can be downloaded from:
- https://github.com/PamWillis/01_Challenge_Code-Refracting-with-HTML-and-CSS.git.
 
 ## Usage
+GitHub repository can be downloaded from:
+ https://github.com/PamWillis/01_Challenge_Code-Refracting-with-HTML-and-CSS.git.
 
 
 Deployed website: https://pamwillis.github.io/01_Challenge_Code-Refracting-with-HTML-and-CSS/
 
-![The Horiseon webpage includes a navigation bar, a header image, and cards with text and images at the bottom of the page. This represents a mockup of the final page](Assets_Readme/images_Readme/screenshot.png)
-
-## License
-
-© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
----
+The Horiseon webpage includes a navigation bar, a header image, and cards with text and images at the bottom of the page. This represents a mockup of the final page
+![MockUp](Assets_Readme/images_Readme/screenshot.png)
